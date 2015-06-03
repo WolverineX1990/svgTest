@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>svg例子</title>
+<style>
+#div1 {width:60px; height:600px; background:#D0D0D0;float: left;}
+#mySvg {width:800px; height:600px; float: left;border: 1px solid;}
+</style>
+<script src="VQuery.js" type="text/javascript"></script>
+<script src="mySvg.js" type="text/javascript"></script>
+<script src="app.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="div1">
+	<input type="button" title="点" id="pointBtn" value="点" />
+	<input type="button" title="折线" id="polylineBtn" value="折线" />
+	<input type="button" title="线" id="lineBtn" value="线" />
+	<input type="button" title="多边形" id="polygonBtn" value="多边形" />
+	<input type="button" title="矩形" id="rectBtn" value="矩形" />
+	<input type="button" title="圆" id="circleBtn" value="圆" />
+	<input type="button" title="椭圆" id="ellipseBtn" value="椭圆" />
+	<input type="button" title="清除" id="clearBtn" value="清除" />
+	<!--<input type="button" title="放大" id="zoomOutBtn" value="放大" />
+	<input type="button" title="缩小" id="zoomInBtn" value="缩小" />
+	<input type="button" title="重置" id="resetBtn" value="重置" />-->
+</div>
+<div id="mySvg"></div>
+<script type="text/javascript">
+    appInit();
+</script>
+</body>
